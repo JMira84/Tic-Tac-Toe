@@ -360,38 +360,19 @@ button,
 }
 
 @media screen and (max-width: 579px) {
-    main { flex-flow: row wrap!important; }
-
-    .player-info-wrapper {
-        flex: 1 30%;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .game-container-wrapper { flex: 1 70%; }
-
-    .game-container { padding-left: 30px; }
-
+    .player-info-wrapper { margin-bottom: 30px; }
+    
     .game-tiles { 
         flex: 1 30.33%;
         height: 94px;
     }
 
-    .reset-button-wrapper { order: 3 }
-
-    .reset-button {
-        width: 127.8px; 
-        margin: 0; 
-    }
+    .reset-button { width: 127.8px; }
 
     .reset-button,
     .new-round { font-size: 1.2rem; }
 
     .new-round { width: 133.8px; }
-
-    .player1-info { margin-bottom: 66px; }
-
-    .player2-info { margin-bottom: 30px; }
 }
 
 @media screen and (max-width: 568px) {
