@@ -447,6 +447,24 @@ button,
 
 @media screen and (max-width: 379px) {
     .header-title { font-size: 5.5rem; }
+
+    .game-tiles:nth-child(1),
+    .game-tiles:nth-child(2),
+    .game-tiles:nth-child(4),
+    .game-tiles:nth-child(5),
+    .game-tiles:nth-child(7),
+    .game-tiles:nth-child(8) {
+        border-right: 8px solid #fff;
+    }
+
+    .game-tiles:nth-child(1),
+    .game-tiles:nth-child(2),
+    .game-tiles:nth-child(3),
+    .game-tiles:nth-child(4),
+    .game-tiles:nth-child(5),
+    .game-tiles:nth-child(6) {
+        border-bottom: 8px solid #fff;
+    }    
 }
 
 @media screen and (max-width: 357px) {
